@@ -8,7 +8,6 @@ model.load_model('xgb_model.json')
 #Caching the model for faster loading
 @st.cache
 
-
 # Define the prediction function
 def predict(carat, cut, color, clarity, depth, table, x, y, z):
     #Predicting the price of the carat
